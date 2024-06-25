@@ -1,0 +1,40 @@
+Binary Search:
+    It only works on ordered/sorted data i.e ascending or descending
+
+    Mid = Start + End / 2  #here the start and end will contain the indexes of the elements in the data structure
+    
+    First find the middle term, then compare the middle term to the key, if equal return the value else if the key is less than the middle terms
+    check the left side items or if the key is greater than the middle term then check in the right side items
+
+    To evade the issue of integer out of range, use :
+        
+        Mid = Start + ( End - Start) / 2
+    
+    It runs for a condition i.e start <= end
+
+    Time complexity:
+        O(logN)
+
+
+Pointer:
+
+    A pointer stores the address of a variable
+
+    int *ptr = &num;
+
+    #the pointer should be of the same data type as the data it is pointing to.
+
+Recursion:
+    
+    When a function calls it self it is called recursion;
+
+    In normal language, when the solution to a bigger problem can be solved with the solution of a smaller problem of the same type, these type of problems can be solved using
+    recursion.
+
+    A recursive function always contains a base case / condition which when satisfied returns out of the functions
+
+    A recursive relation depicts the problem in mathematical way;
+
+    A base case is mandatory in a recursive function to avoid stack overflow or segmentation fault
+
+    Recursion can be observed in a exponential power function or a factorial function
